@@ -1,3 +1,18 @@
+/*  
+Bootstrap JS components:
+- Loading Spinner
+- Scrollspy
+- Tooltip
+- Carousel
+
+*/
+// DISPLAYS BOOTSTRAP SPINNER ON PAGE LOAD
+$(window).on('load', function () {
+  $('#loading-spinner').fadeTo(1500, 0, function () {
+    $(this).css('z-index', '-1');
+  });
+});
+
 // wait for DOM ready
 $(document).ready(function () {
   // BOOTSTRAP SCROLLSPY: change nav active state based on position
