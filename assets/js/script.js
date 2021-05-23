@@ -41,7 +41,7 @@ $(document).ready(function () {
     //animate
     $('html').animate(
       {
-        scrollTop: $(hash).offset().top - 50,
+        scrollTop: $(hash).offset().top - 58,
       },
       800
     );
