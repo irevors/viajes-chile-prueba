@@ -58,6 +58,14 @@ body {
   @media (max-width: 767px) {
     margin-top: 56px;
   }
+  .carousel-item {
+    max-height: 100vh;
+    .aspect-ratio-wrapper {
+      padding-bottom: 144/216 * 100%;
+      overflow: hidden;
+      height: 0;
+    }
+  }
 }
 /* SEPARATORS */
 .separator-line {

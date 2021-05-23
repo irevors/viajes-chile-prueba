@@ -72,7 +72,8 @@
               <a class="nav-link active hero" href="#hero"
                 >Inicio <span class="sr-only">(actual)</span></a
               >
-              <a class="nav-link quienes-somos" href="#quienes-somos"
+              <!-- nav-link will hide on md or bigger viewports -->
+              <a class="nav-link quienes-somos d-none d-md-block" href="#quienes-somos"
                 >Quiénes Somos</a
               >
               <a class="nav-link destacados" href="#destacados">Destacados</a>
@@ -94,25 +95,32 @@
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
+              <div class="aspect-ratio-wrapper">
               <img
                 src="./assets/img/carousel1.jpg"
                 class="img-fluid"
                 alt="imagen del Altiplano"
               />
             </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/img/carousel2.jpg"
-                class="img-fluid"
-                alt="imagen de isla de Moais en Isla de Pascua"
-              />
             </div>
             <div class="carousel-item">
+              <div class="aspect-ratio-wrapper">
+                <img
+                  src="./assets/img/carousel2.jpg"
+                  class="img-fluid"
+                  alt="imagen de isla de Moais en Isla de Pascua"
+                />
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="aspect-ratio-wrapper">
               <img
                 src="./assets/img/carousel3.jpg"
                 class="img-fluid"
                 alt="Imagen de Pinguino"
               />
+            </div>
             </div>
           </div>
           <a

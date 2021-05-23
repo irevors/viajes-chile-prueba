@@ -66,6 +66,16 @@ body {
   }
 }
 
+#hero .carousel-item {
+  max-height: 100vh;
+}
+
+#hero .carousel-item .aspect-ratio-wrapper {
+  padding-bottom: 66.66667%;
+  overflow: hidden;
+  height: 0;
+}
+
 /* SEPARATORS */
 .separator-line {
   width: 100%;
