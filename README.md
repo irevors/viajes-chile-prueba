@@ -2,7 +2,7 @@
 desafio bootcamp
 
 # Link a Github pages
-https://irevors.github.io/viajes-chile/
+https://irevors.github.io/viajes-chile-prueba/
 
 # Bootstrap
 ## Sin JS
